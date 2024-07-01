@@ -2,7 +2,8 @@
 
 ## Web App Interface
 
-![Uploading image.png…]()
+![image](https://github.com/usmaan9990/VehicleClassi_CNN/assets/31176872/05184c36-b823-4718-a0bc-aa336df37e7a) 
+
 
 
 ## Project Overview
