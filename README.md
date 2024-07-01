@@ -20,6 +20,6 @@ In this project, I have developed a web application to identify vehicle types us
 - **CSS**
 - **HTML**
 
-##Accuracy Plot
+## Accuracy Plot
 
 ![image](https://github.com/usmaan9990/VehicleClassi_CNN/assets/31176872/41dcfad9-754a-472f-b7cb-230c249660a1)
