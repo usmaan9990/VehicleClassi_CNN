@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Image Classification</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/static/css/fin.css" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </head>
+  <body>
+    <div id="total">
+      <div id="intro">
+        <h1>
+          Web Application to Classify Different Types of Vehicles Using CNN
+        </h1>
+        <br />
+        <h3>This Application is Built Using <span class="tool"></span></h3>
+      </div>
+      <br /><br />
+      <div id="upload">
+        <form
+          class="form-horizontal"
+          action="/submit"
+          method="post"
+          enctype="multipart/form-data"
+        >
+          <div id="form-group">
+            <h2>Upload Your Image :</h2>
+            <input
+              type="file"
+              class="form-control"
+              name="my_image"
+              id="pwd"
+              required
+            />
+          </div>
+          <div id="btn">
+            <button type="submit" id="btnsubmit">Submit</button>
+          </div>
+        </form>
+      </div>
+      <div id="img">
+        {% if prediction %}
+        <img
+          src="{{ img_path }}"
+          height="250px"
+          width="400px"
+          id="iimg"
+        /><br /><br />
+        <h2>The Vehicle Type of Your Image : <i>{{ prediction }}</i></h2>
+        {% endif %}
+      </div>
+    </div>
+    <footer>
+      <p>Copyright © Usmaan | Made with ❤ Usmaan</p>
+    </footer>
+
+    <script>
+      var typed = new Typed(".tool", {
+        strings: ["HTML", "CSS", "Python", "Flask", "CNN"],
+        typeSpeed: 50,
+        backSpeed: 50,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
