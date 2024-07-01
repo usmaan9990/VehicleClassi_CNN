@@ -26,9 +26,6 @@ def predict_label(img_path):
 def main():
     return render_template("index.html")
 
-@app.route("/about")
-def about_page():
-    return "Please subscribe to Artificial Intelligence Hub..!!!"
 
 @app.route("/submit", methods=['GET', 'POST'])
 def get_output():
