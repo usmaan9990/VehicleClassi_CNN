@@ -14,7 +14,7 @@ In this project, I have developed a web application to identify vehicle types us
 
 - **Dataset:** I have used a secondary dataset to train the model.
 - **CNN Model:** The VGG16 model has been employed for this task.
-- **Training:** The model was trained for up to 100 epochs. However, I implemented an early stopping callback to halt training early based on the validation loss to prevent overfitting.
+- **Training:** The model was trained for up to 100 epochs. However, I implemented an early stopping callback to halt training early based on the validation loss to prevent overfitting. My training accuracy is 94%.
 - **Model Size:** Due to the large size of the trained model (196 MB), it is not included in this repository.
 
 ## Tools and Technologies
