@@ -1,5 +1,10 @@
 # Web Application to Identify the Type of Vehicles Using Convolutional Neural Network (CNN)
 
+## Web App Interface
+
+![Uploading image.png…]()
+
+
 ## Project Overview
 
 In this project, I have developed a web application to identify vehicle types using Convolutional Neural Networks (CNN). The main tools and techniques utilized in this project include TensorFlow, Keras, Python, Flask, CSS, and HTML.
@@ -23,3 +28,4 @@ In this project, I have developed a web application to identify vehicle types us
 ## Accuracy Plot
 
 ![image](https://github.com/usmaan9990/VehicleClassi_CNN/assets/31176872/41dcfad9-754a-472f-b7cb-230c249660a1)
+
